@@ -1,0 +1,7 @@
+BEGIN TRANSACTION;
+CREATE TABLE IF NOT EXISTS "Classement" (
+	"Position"	TEXT,
+	"Score"	TEXT,
+	"Nom"	TEXT
+);
+COMMIT;
