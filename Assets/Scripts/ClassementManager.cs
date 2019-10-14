@@ -17,7 +17,7 @@ public class ClassementManager : MonoBehaviour
 
     void Start()
     {
-        connectionString = "URI=file:" + Application.dataPath + "/StreamingAssets/Classement.csv";
+        connectionString = "URI=file:" + Application.dataPath + "/StreamingAssets/Classement.sql";
         //connectionString = "URI=file: D:/Christopher/Téléchargement/Moteur de jeux/New Unity Project/Assets/StreamingAssets/StreamingAssets/Classement.sql";
 
         InsertScores("5", "125", "Joueur 5");
